@@ -23,10 +23,11 @@ import {
   DebugInstructions,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
-import {Contenedor} from './src/config/navigation/RouteConfig'
+import AppContainer from './src/config/navigation/RouteConfig';
+import {createAppContainer} from 'react-navigation';
 const App = () => {
   return (
-   <Contenedor></Contenedor>
+   <AppContainer/>
   );
 };
 

@@ -1,14 +1,12 @@
 /* eslint-disable eol-last */
 /* eslint-disable comma-dangle */
-import {createAppContainer} from 'react-navigation';
 import Home from '../../screens/Home';
 import {createStackNavigator} from 'react-navigation-stack';
+import {createAppContainer} from 'react-navigation';
 
 const RouteConfig = createStackNavigator({
-  home: {
-    screen: Home,
-  },
+  Home: {screen: Home},
 });
+const AppContainer = createAppContainer(RouteConfig);
 
-const Contenedor = createAppContainer(RouteConfig);
-export default Contenedor;
+export default AppContainer;
