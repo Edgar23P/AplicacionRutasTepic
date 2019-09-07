@@ -4,12 +4,15 @@
   "private": true,
   "scripts": {
     "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint ."
+    "test": "jest"
   },
   "dependencies": {
+    "es-abstract": "^1.14.1",
     "react": "16.8.6",
-    "react-native": "0.60.5"
+    "react-native": "0.60.5",
+    "react-native-gesture-handler": "^1.4.1",
+    "react-navigation": "^4.0.0",
+    "react-navigation-stack": "^1.5.1"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
